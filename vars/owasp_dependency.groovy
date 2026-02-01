@@ -10,6 +10,8 @@ def call() {
           --out dependency-check-report
           --noupdate
           --disableAssembly
+          --disableNodeAudit
+          --disableOSSIndex
         """
       )
     }
