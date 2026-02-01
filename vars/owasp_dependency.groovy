@@ -8,7 +8,7 @@ def call() {
         additionalArguments: """
           --format XML
           --out dependency-check-report
-          --nvdApiKey ${NVD_API_KEY}
+          --noupdate
           --disableAssembly
         """
       )
