@@ -9,9 +9,8 @@ def call() {
           --format XML
           --out dependency-check-report
           --noupdate
-          --disableAssembly
-          --disableNodeAudit
-          --disableOSSIndex
+          --nvdApiKey ${NVD_API_KEY}
+          --failOnCVSS 11
         """
       )
     }
