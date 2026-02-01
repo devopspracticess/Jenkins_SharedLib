@@ -9,7 +9,6 @@ def call() {
           --format XML
           --out dependency-check-report
           --nvdApiKey ${NVD_API_KEY}
-          --disableNvdCvssV4
           --disableAssembly
         """
       )
